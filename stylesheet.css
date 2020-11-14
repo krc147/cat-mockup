@@ -1,16 +1,31 @@
 * { font-family: sans-serif;}
 
+body {
+  color: hsl(0%, 0%, 20%);
+}
+
+footer {
+  clear: both;
+}
+
 .blue-text {
   color: hsl(192, 100%, 40%);
 }
 .blue-background {
   background-color: hsl(192, 100%, 40%);
+  padding: 4rem;
+  width: 100%;
+
 }
 .light-grey-background {
   background-color: hsl(0, 0%, 90%);
+  padding: 2rem;
+  width: 100%;
 }
 .dark-grey-background {
   background-color: hsl(0, 0%, 25%);
+  padding: 7rem;
+  width: 100%;
 }
 
 .white-text {
@@ -27,11 +42,15 @@
 }
 .important {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
 }
-/*
+
 .aside-column {
   float: right;
-  width: 25%;
+  width: 30%;
 }
-*/
+
+.main-column {
+  float: left;
+  width: 60%
+}
